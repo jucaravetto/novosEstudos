@@ -15,42 +15,100 @@
 
 <body>
 
-    <div class="container">
-        <h1>My First Bootstrap Page</h1>
-        <p>This part is inside a .container class.</p>
-        <p>The .container class provides a responsive fixed width container.</p>
-        <p>Resize the browser window to see that the container width will change at different breakpoints.</p>
+    <div class="container-fluid">
+        <h4><b>Sonho de viagem!</b><br></h4>
+        <img title="Vem pro Chileee" src="assets/img/Chile.jpg" alt="Viagem para o Chileeeeee!" width="300"
+            height="200">
+        <br><br>
+        <a class="linkstyle" href="pag2.html">Go to the second page!</a>
+        <br>
+        <hr>
+
+        <!--Colocando mais de uma característica do CSS no style-->
+        <p style="color:rgb(70, 36, 70); font-size:30px; text-align:center;">
+            Aqui um parágrafo. <br>
+            Vamos escrever algo aqui. <br>
+            Este estilo não tem formatação pré-definida.
+        </p>
+
+        <pre style="font-family:verdana;"><!--parágrafo com formatação pré definida!-->
+            Testando um <b>parágrafo</b> com formatação pré definida.
+    
+            Aqui posso pular linhas sem escrever a tag para isto.
+    
+            Pula 1.
+            Pula 2.
+    
+            ok!
+        </pre>
+
+
     </div>
 
-    <!--Este font-size é parte do CSS escrito no HTML-->
-    <h1 style="font-size: 70px;">Olá!</h1>
-    <h1>Olá!</h1>
-    <h2>Olá</h2>
-    <h3>Olá</h3>
-    <h4>Olá</h4>
-    <h5>Olá</h5>
-    <h6>Olá</h6>
-    <a href="pag2.html">Go to the second page!</a>
-    <hr>
-    <!--Colocando mais de uma característica do CSS no style-->
-    <p style="color:rgb(70, 36, 70); font-size:30px; text-align:center;">Testando o parágrafo!! Como vou fazer pra pular
-        linha? <br>
-        Testando pular linha!<br>
-        Deu certo pular linha!!!
-    </p>
-    <h4>Agora uma imagenzinha!<br></h4>
-    <img title="Vem pro Chileee" src="assets/img/Chile.jpg" alt="Viagem para o Chileeeeee!" width="300" height="200">
+    <!--Essa classe row coloca as colunas lado a lado. Se escrever container ele coloca um embaixo do outro.-->
+    <div class="row format">
+        <div class="col colstyle">
+            <p>Organizando as colunas!
+                <br>
+                <br>
+                Let's use bootstrap!
+            </p>
+        </div>
 
-    <pre style="font-family:verdana;"><!--parágrafo com formatação pré definida!-->
-        Testando um <b>parágrafo</b> com formatação pré definida.
+        <div class="col colstyle">
+            <p>Organizando as colunas!
+                <br>
+                <br>
+                Let's use bootstrap!
+            </p>
+        </div>
 
-        Aqui posso pular linhas sem escrever a tag para isto.
+        <div class="col colstyle colstyle3">
+            <p>Organizando as colunas!
+                <br>
+                <br>
+                Let's use bootstrap!
+            </p>
+        </div>
+    </div>
 
-        Pula 1.
-        Pula 2.
+    <div class="container mt-3">
+        <h2>Basic Table</h2>
+        <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
 
-        Tchau!
-    </pre>
+    <footer class="footerstyle">
+        <p>
+            Por JuCaravetto.
+        </p>
+    </footer>
 
 </body>
 

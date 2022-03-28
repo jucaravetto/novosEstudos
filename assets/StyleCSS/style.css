@@ -1,3 +1,65 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(117, 134, 139);
   }
+
+.container-fluid{
+  background-color: #FFF; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, rgb(7, 85, 138) ,rgb(255, 94, 0), rgb(243, 243, 172));
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.colstyle{
+  background-color: rgb(175, 29, 114);
+  text-align: center;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.colstyle3{
+  margin-right: 20px;
+}
+
+/*Posso chamar só a segunda classe que está na parte das colunas*/
+.format{
+  background-color: rgba(36, 153, 124, 0.226);
+}
+
+.table{
+  background-color: rgb(235, 235, 176);
+  border-radius: 10px;
+  border-color: black;
+}
+
+.container{
+  background-color: rgb(233, 207, 182);
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.linkstyle{
+  color: black;
+  text-transform: uppercase;
+}
+.linkstyle:hover{
+  font-weight: bolder;
+  color: black;
+  font-style: oblique;
+}
+
+.footerstyle{
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red ,rgb(255, 94, 0), yellow);
+  color: antiquewhite;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  padding-top: 30px;
+}
